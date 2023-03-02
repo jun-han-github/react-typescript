@@ -7,7 +7,7 @@ export default function HomePage() {
         name: "Junhan"
     }
 
-    const quote = 'Welcome back, we wish you love our app!';
+    const quote = 'Welcome back, have fun here!';
 
     return (
         <>

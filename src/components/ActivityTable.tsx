@@ -9,7 +9,7 @@ export default function ActivityTable() {
             <div>
                 {
                     questions.map((question: any) => (
-                        <Activity name={question} />
+                        <Activity key={question} name={question} />
                     ))
                 }
             </div>
